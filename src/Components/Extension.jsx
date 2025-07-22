@@ -206,9 +206,9 @@ const Extension = () => {
 
                 <div className=" relative flex flex-col justify-center lg:gap-80 md:flex-row items-center gap-3 mt-20 px-5 md:px-20">
                     <div className="absolute inset-0 z-0">
-        <div className="absolute top-[32%] left-[20%] w-[720px] h-[520px] bg-white  rounded-full opacity-8 blur-3xl" />
-        <div className="absolute top-20 right-10 w-[720px] h-[520px] bg-pink-500 rounded-full opacity-11 blur-3xl" />
-        <div className="absolute bottom-[4%] left-2/10 w-[620px] h-[520px] bg-pink-500 rounded-full opacity-11 blur-3xl" />
+        <div className="absolute top-[32%] left-[20%] w-[45rem] h-[32.5rem] bg-white  rounded-full opacity-8 blur-3xl" />
+        <div className="absolute top-20 right-10 w-[45rem] h-[32.5rem] bg-pink-500 rounded-full opacity-11 blur-3xl" />
+        <div className="absolute bottom-[4%] left-2/10 w-[38.75rem] h-[32.5rem] bg-pink-500 rounded-full opacity-11 blur-3xl" />
         
 
       </div>
@@ -242,12 +242,12 @@ const Extension = () => {
             </div>
       
             {/* Right Side Image Card with Gradient Border */}
-  <div className="relative p-[2px] rounded-[22px] bg-gradient-to-br from-[#1b1e2c] via-[#7982c6] to-[#1b1e2c] shadow-[12_12_12px_#202436] w-fit">
-  <div className="relative w-[300px] sm:w-[400px] md:w-[460px] lg:w-[380px] h-[300px] sm:h-[400px] md:h-[460px] lg:h-[380px] rounded-[20px] overflow-hidden bg-[#5f6980]">
+  <div className="relative p-[2px] rounded-[1.375rem] bg-gradient-to-br from-[#1b1e2c] via-[#7982c6] to-[#1b1e2c] shadow-[12_12_12px_#202436] w-fit">
+  <div className="relative w-[18.75rem] sm:w-[25rem] md:w-[28.75rem] lg:w-[23.75rem] h-[18.75rem] sm:h-[400px] md:h-[28.75rem] lg:h-[23.75rem] rounded-[1.25rem] overflow-hidden bg-[#5f6980]">
     <img
       src={img1}
       alt="video"
-      className="w-full h-full object-cover rounded-[20px]"
+      className="w-full h-full object-cover rounded-[1.25rem]"
     />
 
     {/* Play Icon Overlay */}

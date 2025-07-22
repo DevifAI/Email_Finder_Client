@@ -5,7 +5,7 @@ import Footer from '../Components/Footer'
 const ContactUs = () => {
   return (
     <>
-    <div className=' min-h-screen py-8 px-4'>
+    <div className=' min-h-screen py-[3%] px-[2%]'>
      <div className='w-full  max-w-7xl mx-auto flex flex-col md:flex-row gap-8 relative'>
         <div className="absolute inset-0 z-0">
         <div className="absolute top-[-2%] left-[40%] w-96 h-96  rounded-full opacity-20 blur-3xl" />
@@ -23,11 +23,11 @@ const ContactUs = () => {
           <p className='text-gray-300 mb-2 font-inter relative'>Have questions about our plans, features, or how it works?</p>
           <p className='text-gray-400 font-inter'>Email us at:  <span className='text-white'>support@yourdomain.com</span></p>
         </div>
-        <div className="bg-[#24273F] md:w-1/2 w-full max-w-[608px] p-6 sm:p-8 shadow-xl border border-[#606893] rounded-2xl relative">
+        <div className="bg-[#24273F] md:w-1/2 w-full max-w-[38rem] p-6 sm:p-8 shadow-xl border border-[#606893] rounded-2xl relative">
           <div className="text-white text-xl font-semibold mb-4 relative">Let’s Talk</div>
 
           {/* Name input */}
-          <div className="h-[60px] w-full rounded-full border border-gray-500 mt-5 bg-[#2b2E55]  px-4 flex items-center">
+          <div className="h-[3.75rem] w-full rounded-full border border-gray-500 mt-5 bg-[#2b2E55]  px-4 flex items-center">
             <input
               type="text"
               placeholder="Your Name"
@@ -36,7 +36,7 @@ const ContactUs = () => {
           </div>
 
           {/* Email input */}
-          <div className="h-[60px] w-full rounded-full border border-gray-500 mt-4 bg-white px-4 flex items-center">
+          <div className="h-[3.75rem] w-full rounded-full border border-gray-500 mt-4 bg-white px-4 flex items-center">
             <input
               type="email"
               placeholder="you@yourmail.com"
@@ -45,10 +45,10 @@ const ContactUs = () => {
           </div>
 
           {/* Message box */}
-          <div className="h-[160px] w-full rounded-2xl border border-gray-500 mt-5 bg-[#2b2E55] p-4">
+          <div className="[10rem] w-full rounded-2xl border border-gray-500 mt-5 bg-[#2b2E55] p-4">
             <p className="text-white mb-2">Message</p>
             <textarea
-              className="w-full h-[80px] resize-none text-sm text-gray-800 focus:outline-none"
+              className="w-full h-[5rem] resize-none text-sm text-gray-800 focus:outline-none"
               placeholder="Type your message here..."
             ></textarea>
           </div>

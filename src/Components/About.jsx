@@ -8,7 +8,7 @@ import StatsSection from "./StatsSection";
 const About = () => {
   return (
     <div className=" ">
-      <div className="flex flex-col-reverse py-12  lg:flex-row items-center justify-center gap-12 lg:gap-60 relative">
+      <div className="flex flex-col-reverse py-12  lg:flex-row items-center justify-center gap-11 lg:gap-48 relative">
           <div className="absolute inset-0 z-0">
         <div className="absolute top-[-5%] left-[35%] w-[700px] h-[450px] bg-white  rounded-full opacity-6 blur-3xl" />
         <div className="absolute top-20 right-10 w-80 h-80  rounded-full opacity-25 blur-3xl" />
@@ -17,7 +17,7 @@ const About = () => {
 
       </div>
         {/* Text Section */}
-        <div className="flex flex-col gap-6 max-w-xl text-center lg:text-left px-4 md:px-8 relative">
+        <div className="flex flex-col gap-6 max-w-2xl text-center lg:text-left px-4 md:px-8 relative">
           <div className="flex flex-col gap-3 relative">
             <h1 className="text-4xl sm:text-4xl md:text-5xl  text-white font-spaceGrotesk">
               About Us
@@ -56,7 +56,7 @@ const About = () => {
               {" "}
               <p>
                 Our goal? To make finding and verifying emails easy, fast, and
-                reliable—whether you're running a solo campaign or managing an
+                reliable whether you're running a solo campaign or managing an
                 enterprise pipeline.
               </p>
             </div>
@@ -66,7 +66,7 @@ const About = () => {
         {/* Image Section */}
         <div className="w-full max-w-sm md:max-w-md relative">
           <img
-            className="rounded-2xl w-full h-auto lg:w-[450px] lg:h-[450px] object-cover"
+            className="rounded-2xl w-full h-auto lg:w-[28.125rem] lg:h-[28.125rem] object-cover"
             src={imgAb}
             alt="About Us"
           />

@@ -7,9 +7,9 @@ const WhyChooseUs = () => {
       {/* Title */}
 
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-[-2%] left-[40%] w-96 h-96  rounded-full opacity-20 blur-3xl" />
-        <div className="absolute top-50 right-110  w-[550px] h-[500px] bg-pink-500 rounded-full opacity-25 blur-3xl" />
-        <div className="absolute bottom-[-10%] left-1/8 rounded-full opacity-15 blur-3xl" />
+        
+        <div className="absolute top-50 right-110  w-[34.375rem] h-[31.25rem] bg-pink-500 rounded-full opacity-25 blur-3xl" />
+        
         
 
       </div>

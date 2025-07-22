@@ -109,7 +109,7 @@ const [activeIndex, setActiveIndex] = useState(null);
   return (
    <div className='w-[100%]'>
      <div className='w-full  text-white py-20 px-4 md:px-12 lg:px-12 font-sans'>
-        <div className=" text-white mb-10  lg:ml-40">
+        <div className=" text-white mb-10  lg:ml-18">
         <h2 className="text-4xl md:text-4xl font-spaceGrotesk mb-2">
           Simple Plans, Powerful Results
         </h2>
@@ -126,140 +126,144 @@ const [activeIndex, setActiveIndex] = useState(null);
   </div>
 
   {/* CARD 1: Pay As You Go */}
-  <div className="flex group flex-col min-h-[680px] bg-[#1b1f30] border border-[#2e3248] hover:bg-gradient-to-b hover:from-[#6B4EFF] hover:to-[#FC4B94] text-white rounded-2xl p-6 sm:p-8 w-full max-w-[400px] shadow-lg transition-colors duration-300 relative z-10">
-    <h3 className="text-lg font-spaceGrotesk mb-7">Pay As You Go</h3>
-    <div className="text-4xl font-spaceGrotesk mb-1 flex items-center">
-      Free <span className="text-[1rem] text-gray-300 ml-2 mt-4">$200 Of Credit</span>
-    </div>
-    <p className="text-[1rem] text-white mb-5 font-inter">
-      Then pay-as-you-go. No minimums. No expiration. No credit card required.
-    </p>
-   <div className="w-full text-lg  bg-[#444057] group-hover:bg-white group-hover:text-black transition-colors duration-200 py-3 rounded-full font-inter flex items-center justify-center   mb-7">
-            <div className="mr-19 ml-22">Sign Up Free</div> <div className=" "><UserIconButton className="bg-gray-900 min-h-screen ml-7 flex items-center justify-center"/></div>
+  <div className="flex group flex-col min-h-[42.5rem] border border-white/10 hover:bg-gradient-to-b hover:from-[#6B4EFF] hover:to-[#FC4B94] text-white rounded-2xl p-[5%] sm:p-[2%] w-full max-w-[25rem] shadow-lg transition-colors duration-300 relative z-10 backdrop-blur-lg bg-white/5">
+
+
+          <h3 className="text-lg font-spaceGrotesk mb-[5%]">Pay As You Go</h3>
+          <div className="text-4xl font-spaceGrotesk mb-[2%] flex items-center">
+            Free <span className="text-[1rem] text-gray-300 ml-[2%] mt-[4%] ">$200 Of Credit</span>
           </div>
-    <ul className="space-y-3 text-[1rem] font-inter">
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Access all endpoints in public models
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        <div>
-          <div className="mb-3">Concurrency Limits</div>
-          <ul className="list-disc ml-5 space-y-2">
-            <li>Speech-to-text:</li>
-            <div className="ml-2">- Up to 100 for the REST API</div>
-            <div className="ml-2">- Up to 50 for the WSS API</div>
-            <div className="ml-2">- Up to 5 for Deepgram Whisper Cloud</div>
-            <li>Text-to-speech:</li>
-            <div className="ml-2">- Up to 5 for the REST API + WSS API</div>
-            <li>Voice Agent API:</li>
-            <div className="ml-2">- Up to 5 for the WSS API</div>
-            <li>Audio Intelligence:</li>
-            <div className="ml-2">- Up to 10 for the REST API</div>
+          <p className="text-[1rem] text-white mb-[12%] font-inter">
+            Then pay-as-you-go. No minimums. No expiration. No credit card required.
+          </p>
+          <div className="w-full text-lg  bg-[#444057] group-hover:bg-white group-hover:text-black transition-colors duration-200 py-3 rounded-full font-inter flex items-center justify-center mb-[7%]">
+            <div className="mr-[25%] ml-[21%]">Sign Up Free</div> <div className=" "><UserIconButton className="bg-gray-900 min-h-screen flex items-center justify-center"/></div>
+          </div>
+          <ul className="space-y-3 text-[1rem] font-inter">
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Access all endpoints in public models
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              <div>
+                <div className="mb-3">Concurrency Limits</div>
+                <ul className="list-disc ml-[6%] space-y-2">
+                  <li>Speech-to-text:</li>
+                  <div className="ml-[2%]">- Up to 100 for the REST API</div>
+                  <div className="ml-[2%]">- Up to 50 for the WSS API</div>
+                  <div className="ml-[2%]">- Up to 5 for Deepgram Whisper Cloud</div>
+                  <li>Text-to-speech:</li>
+                  <div className="ml-[2%]">- Up to 5 for the REST API + WSS API</div>
+                  <li>Voice Agent API:</li>
+                  <div className="ml-[2%]">- Up to 5 for the WSS API</div>
+                  <li>Audio Intelligence:</li>
+                  <div className="ml-[2%]">- Up to 10 for the REST API</div>
+                </ul>
+              </div>
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Discord and community help
+            </li>
           </ul>
         </div>
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Discord and community help
-      </li>
-    </ul>
-  </div>
 
   {/* CARD 2: Growth */}
-  <div className="flex group flex-col min-h-[680px] bg-[#1b1f30] border border-[#2e3248] hover:bg-gradient-to-b hover:from-[#6B4EFF] hover:to-[#FC4B94] text-white rounded-2xl p-6 sm:p-8 w-full max-w-[400px] shadow-lg transition-colors duration-300 relative z-10">
-    <div className="flex justify-between items-center mb-3">
-      <h3 className="text-lg font-spaceGrotesk">Growth</h3>
-      <div className="bg-white/10 backdrop-blur-md border border-white/20 text-[15px] px-4 py-2 rounded-3xl font-spaceGrotesk shadow-md">
-        Most Popular
-      </div>
-    </div>
-    <div className="flex items-center gap-3 mb-2">
-      <div className="text-4xl font-spaceGrotesk">$4k+</div>
-      <div className="text-sm">/ Year</div>
-      <div className="bg-[#4F456B] text-xs px-2 py-1 rounded-md">
-        Save Up To <strong>20%</strong>
-      </div>
-    </div>
-    <p className="text-[1rem] font-inter mb-4">
-      With pre-paid credits for the year. Credits are redeemed against actual usage.
-    </p>
-   <div className="w-full  bg-[#444057] group-hover:bg-white group-hover:text-black transition-colors duration-200 py-3 rounded-full font-inter flex items-center justify-center  text-lg  mb-7">
-            <div className="mr-24 ml-24">Buy now</div> <div className=" "><LockCircleIcon className="bg-gray-900 min-h-screen ml-7 flex items-center justify-center"/></div>
+  <div className="flex group flex-col min-h-[42.5rem] border border-white/10 hover:bg-gradient-to-b hover:from-[#6B4EFF] hover:to-[#FC4B94] text-white rounded-2xl p-[5%] sm:p-[2%] w-full max-w-[25rem] shadow-lg transition-colors duration-300 relative z-10 cursor-pointer hover:cursor-default backdrop-blur-lg bg-white/5">
+
+          <div className="flex justify-between items-center mb-[3%]">
+            <h3 className="text-lg font-spaceGrotesk ">Growth</h3>
+            <div className="bg-white/10 backdrop-blur-md border border-white/20 text-[0.9375rem] px-[4%] py-[3%] rounded-3xl font-spaceGrotesk  shadow-md">
+              Most Popular
+            </div>
           </div>
-    <ul className="space-y-3 text-[1rem] font-inter">
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Access all endpoints in public models
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        <div>
-          <div className="mb-3">Concurrency Limits</div>
-          <ul className="list-disc ml-5 space-y-2">
-            <li>Speech-to-text:</li>
-            <div className="ml-2">- Up to 100 for the REST API</div>
-            <div className="ml-2">- Up to 50 for the WSS API</div>
-            <div className="ml-2">- Up to 5 for Deepgram Whisper Cloud</div>
-            <li>Text-to-speech:</li>
-            <div className="ml-2">- Up to 5 for the REST API + WSS API</div>
-            <li>Voice Agent API:</li>
-            <div className="ml-2">- Up to 5 for the WSS API</div>
-            <li>Audio Intelligence:</li>
-            <div className="ml-2">- Up to 10 for the REST API</div>
+          <div className="flex items-center gap-3 mb-[3%]">
+            <div className="text-4xl font-spaceGrotesk">$4k+</div>
+            <div className="text-sm">/ Year</div>
+            <div className="bg-white/10 backdrop-blur-md border border-white/20 text-xs px-[2%] py-[2%] rounded-md">
+              Save Up To <strong>20%</strong>
+            </div>
+          </div>
+          <p className="text-[1rem] font-inter mb-[8%]">
+            With pre-paid credits for the year. Credits are redeemed against actual usage.
+          </p>
+          <div className="w-full  bg-[#444057] group-hover:bg-white group-hover:text-black transition-colors duration-200 py-3 rounded-full font-inter flex items-center justify-center  text-lg  mb-7">
+            <div className="mr-[25%] ml-[30%]">Buy now</div> <div className=" "><LockCircleIcon className="bg-gray-900 min-h-screen ml-7 flex items-center justify-center"/></div>
+          </div>
+          <ul className="space-y-3 text-[1rem] font-inter">
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Access all endpoints in public models
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              <div>
+                <div className="mb-3">Concurrency Limits</div>
+                <ul className="list-disc ml-[6%] space-y-2">
+                  <li>Speech-to-text:</li>
+                  <div className="ml-[2%]">- Up to 100 for the REST API</div>
+                  <div className="ml-[2%]">- Up to 50 for the WSS API</div>
+                  <div className="ml-[2%]">- Up to 5 for Deepgram Whisper Cloud</div>
+                  <li>Text-to-speech:</li>
+                  <div className="ml-[2%]">- Up to 5 for the REST API + WSS API</div>
+                  <li>Voice Agent API:</li>
+                  <div className="ml-[2%]">- Up to 5 for the WSS API</div>
+                  <li>Audio Intelligence:</li>
+                  <div className="ml-[2%]">- Up to 10 for the REST API</div>
+                </ul>
+              </div>
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[1%]" />
+              Discord and community help
+            </li>
           </ul>
         </div>
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Discord and community help
-      </li>
-    </ul>
-  </div>
 
   {/* CARD 3: Enterprise */}
-  <div className="flex group flex-col min-h-[680px] bg-[#1b1f30] border border-[#2e3248] hover:bg-gradient-to-b hover:from-[#6B4EFF] hover:to-[#FC4B94] text-white rounded-2xl p-6 sm:p-8 w-full max-w-[400px] shadow-lg transition-colors duration-300 relative z-10">
-    <div className="flex justify-between items-center mb-3">
-      <h3 className="text-lg font-spaceGrotesk">Enterprise</h3>
-    </div>
-    <div className="flex items-center gap-3 mb-2">
-      <div className="text-4xl font-spaceGrotesk">$15k+</div>
-      <div className="text-sm">/ Year</div>
-    </div>
-    <p className="text-[1rem] font-inter mb-4">
-      For businesses with large volumes, data or deployment requirements, or support needs.
-    </p>
-    <div className="w-full  bg-[#444057] group-hover:bg-white group-hover:text-black transition-colors duration-200 py-3 rounded-full font-inter flex items-center justify-center  text-lg  mb-7">
+  <div className="flex group flex-col min-h-[42.5rem] border border-white/10 hover:bg-gradient-to-b hover:from-[#6B4EFF] hover:to-[#FC4B94] text-white rounded-2xl p-[5%] sm:p-[2%] w-full max-w-[25rem] shadow-lg transition-colors duration-300 relative z-10 backdrop-blur-lg bg-white/5">
+
+          <div className="flex justify-between items-center mb-[4%]">
+            <h3 className="text-lg font-spaceGrotesk">Enterprise</h3>
+          </div>
+          <div className="flex items-center gap-3 mb-[2%]">
+            <div className="text-4xl font-spaceGrotesk">$15k+</div>
+            <div className="text-sm">/ Year</div>
+          </div>
+          <p className="text-[1rem] font-inter mb-[12%]">
+            For businesses with large volumes, data or deployment requirements, or support needs.
+          </p>
+           <div className="w-full  bg-[#444057] group-hover:bg-white group-hover:text-black transition-colors duration-200 py-3 rounded-full font-inter flex items-center justify-center  text-lg  mb-7">
             <div className="mr-24 ml-24">Buy now</div> <div className=" "><LockCircleIcon className="bg-gray-900 min-h-screen ml-7 flex items-center justify-center"/></div>
           </div>
-    <ul className="space-y-10 text-[1rem] font-inter">
-      <li className="flex items-start gap-2">
-        <FiCheck size={23} className="mt-1" />
-        Access all endpoints in public models with our best discounts
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Priority access to new endpoints and models
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Highest concurrency support
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Self-hosted deployment options
-      </li>
-      <li className="flex items-start gap-2">
-        <FiCheck size={16} className="mt-1" />
-        Paid Support plans available
-      </li>
-      <li className="flex items-start gap-2 mt-2">
-        <FiCheck size={16} className="mt-1" />
-        Discord and community help
-      </li>
-    </ul>
-  </div>
+          <ul className="space-y-10 text-[1rem] font-inter">
+            <li className="flex items-start gap-2">
+              <FiCheck size={23} className="mt-[2%]" />
+              Access all endpoints in public models with our best discounts
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Priority access to new endpoints and models
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Highest concurrency support
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Self-hosted deployment options
+            </li>
+            <li className="flex items-start gap-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Paid Support plans available
+            </li>
+            <li className="flex items-start gap-2 mt-2">
+              <FiCheck size={16} className="mt-[2%]" />
+              Discord and community help
+            </li>
+          </ul>
+        </div>
 </div>
 
     </div>

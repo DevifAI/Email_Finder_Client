@@ -7,13 +7,9 @@ import StatsSection from "./StatsSection";
 
 const AboutUs = () => {
   return (
-    <div className="  px-4 py-12 relative">
+    <div className="  px-[1%] py-[2%] relative">
         <div className="absolute inset-0 z-0">
         <div className="absolute top-[-10%] left-[35%] w-[800px] h-[500px] bg-white rounded-full opacity-10 blur-3xl" />
-        <div className="absolute top-20 right-10 w-80 h-80 rounded-full opacity-25 blur-3xl" />
-        <div className="absolute bottom-32 left-1/4 w-[400px] h-[400px]  rounded-full opacity-35 blur-3xl" />
-        <div className="absolute bottom-10 right-1/4 w-80 h-80 rounded-full opacity-25 blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72  rounded-full opacity-20 blur-3xl" />
       </div>
       <div className="flex flex-col-reverse   lg:flex-row items-center justify-center gap-12 lg:gap-60 relative">
         {/* Text Section */}
@@ -31,7 +27,7 @@ const AboutUs = () => {
             </h2>
           </div>
 
-          <div className="text-[#8D909C] text-base md:text-lg  flex flex-col gap-4 font-inter relative ">
+          <div className="text-[#8D909C] text-base md:text-lg  flex flex-col gap-5 font-inter relative ">
             <div className="relative">
               <p>
                 We are a data-driven SaaS company focused on helping businesses
@@ -74,7 +70,7 @@ const AboutUs = () => {
       </div>
 
       {/* Button */}
-      <div className="mt-10 flex justify-center lg:justify-start lg:ml-46">
+      <div className="mt-10 flex justify-center lg:justify-start lg:ml-28">
         <button className="flex items-center gap-3 text-white text-base md:text-lg font-semibold px-6 py-3 rounded-full border-2 border-blue-400 bg-gradient-to-r from-purple-500 via-pink-500 to-pink-400 hover:opacity-90 transition-all duration-300 shadow-lg">
           Read More
           <span className="bg-white/20 p-2 rounded-full">

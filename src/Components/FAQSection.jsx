@@ -45,8 +45,8 @@ const FAQSection = () => {
     <section className=" text-white px-4 py-20 md:px-16 font-sans relative ">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-[-2%] left-[40%] w-96 h-96  rounded-full opacity-20 blur-3xl" />
-        <div className="absolute top-15 right-160 w-[750px] h-[580px] bg-pink-500 rounded-full opacity-9 blur-3xl" />
-        <div className="absolute right-150 bottom-[-22%] w-[500px] h-[500px] bg-pink-500  rounded-full opacity-9 blur-3xl" />
+        <div className="absolute top-15 right-160 w-[46.875rem] h-[36.25rem] bg-pink-500 rounded-full opacity-9 blur-3xl" />
+        <div className="absolute right-150 bottom-[-22%] w-[31.25rem] h-[31.25rem] bg-pink-500  rounded-full opacity-9 blur-3xl" />
         
 
       </div>

@@ -32,7 +32,7 @@ const Footer = () => {
       {/* ✅ Description + CTA */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 mt-17  relative z-10">
         <div>
-          <p className="text-[#E5E7EB] text-[20px]">
+          <p className="text-[#E5E7EB] text-[1.25rem]">
             Skip the back and forth. Our lightweight browser extension brings powerful email finding and verification tools directly to your workflow.
           </p>
         </div>
